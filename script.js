@@ -6,11 +6,11 @@ function insert_Row() {
     
     // Create the left cell and set its content
     const leftCell = document.createElement("td");
-    leftCell.textContent = "New Cell1";
+    leftCell.textContent = "New Cell1 ";
     
     // Create the right cell and set its content
     const rightCell = document.createElement("td");
-    rightCell.textContent = "New Cell2";
+    rightCell.textContent = "New Cell2 ";
     
     // Append cells to the new row
     newRow.appendChild(leftCell);
