@@ -17,6 +17,8 @@ function insert_Row() {
     newRow.appendChild(rightCell);
     
     // Append the new row to the table
-    document.getElementById("sampleTable").appendChild(newRow);
+    const table = document.getElementById("sampleTable");
+	table.insertBefore(newRow, table.firstChild);
+	
 
 }
